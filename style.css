@@ -1,0 +1,251 @@
+/*
+Theme name: mittema
+Author: Karoline Ålsbøl
+Description: My portfolio layout 
+Version: 0.0.1
+*/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Microsoft+YaHei+Light&display=swap');
+
+
+a{  text-decoration-line: none;
+    color: black;}
+
+body {
+    background-color:thistle;
+    font-family: 'Microsoft Yahei Light';
+    color: rebeccapurple;
+}
+
+h1 { 
+    font-family: 'overskrift';
+    font-size: 100px; 
+    text-align: center;
+}
+
+.navn{
+    position: absolute;
+    font-family: 'overskrift';
+    font-size: 100px; 
+    text-align: center;
+    left: 7%;
+    margin:6rem 0 0 0;
+}
+
+.bagoverskriftforside{
+    margin-left: 40px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    width: 800px;
+}
+
+@font-face {font-family: "overskrift"; src: url(Peacelove-Bold.ttf);}
+
+/*menubar*/
+.menubar{
+    font-family: 'Amatic SC';
+    color: #CE9DD9;
+    list-style-type: none;display: grid; grid-template-columns: repeat(4, 1fr); 
+    text-align: right;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 60vw;
+    margin-bottom: 0;
+}
+
+.menubar li{
+    padding: 10px;
+}
+
+/* Små overskrifter*/
+h2 {
+    font-family: 'Amatic SC';
+    font-size: 30px;}
+
+/*homepage*/
+.gridhome{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.aboutme {
+    grid-column: 1; 
+   }
+
+.tekstaboutme{
+    font-family: 'Microsoft YaHei Light';
+    color: #696969;
+    font-size: 15px;}
+
+.imgmig{
+    grid-column: 2;
+    width: 270px;
+    margin-left: 1.5rem;
+}
+
+.whiteBox2{
+    justify-items: center;
+}
+
+article.whiteBox {
+    margin: 3rem 0 0 5rem;
+    margin-top: 3rem;
+    align-self: right;
+    background-color: #ffffff40;
+}
+    
+article.whiteBox h2,article.whiteBox p {
+    margin: 1rem;
+}
+
+/*skills*/
+.gridskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skills {
+    grid-column: 1; 
+    margin: 0;}
+
+.tekstskills{
+    font-family: 'Microsoft YaHei Light';
+    color: #696969;
+    font-size: 15px;}
+
+article.whiteBox {
+    margin: 0 2rem 0 2rem;
+    background-color: #ffffff40;
+}
+    
+article.whiteBox h2,article.whiteBox p {
+    margin: 1rem;}
+
+.skillsliste{
+    font-family: 'Microsoft Yahei Light';
+    font-size: 15px;
+    color:  #696969;
+}
+
+/*projects*/ 
+.gridprojects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projects {
+    grid-column: 1; 
+    margin: 0;}
+
+.tekstprojects{
+    font-family: 'Microsoft YaHei Light';
+    color: #696969;
+    font-size: 15px;}
+
+article.whiteBox {
+    margin: 0 2rem 0 2rem;
+    background-color: #ffffff40;
+}
+
+.lilleoverskrift{
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    color: #696969;
+    list-style-type: none;
+}
+
+.smykkereklame p {color: #696969; font-size: 15px; border: none;}
+.smykkereklame video {width: 470px;}
+
+.gb p {color: #696969; font-size: 15px;}
+.gb img {width: 500px;}
+
+.cologne p{ color: #696969; font-size: 15px;}
+.cologne img{ width: 470px;}
+
+.darkerdays p{color: #696969; font-size: 15px;}
+.darkerdays img{width: 220px;}
+
+.innovativet p {color: #696969; font-size: 15px;}
+.innovativet img {width: 520px;}
+
+.stevning p{color: #696969; font-size: 15px;}
+.stevning img{width:400px;}
+
+.wbees p{color: #696969; font-size: 15px;}
+.wbees img{width:400px;}
+
+.phd p {color: #696969; font-size: 15px;}
+.phd img {width: 300px;}
+    
+article.whiteBox h2,article.whiteBox p {
+    margin: 1rem;
+}
+
+/*resume*/
+.gridresume{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.resume {
+    grid-column: 1; 
+    margin: 0;}
+
+.tekstresume{
+    font-family: 'Microsoft YaHei Light';
+    color: #696969;
+    font-size: 15px;}
+
+.imgmig{
+    grid-column: 2;
+}
+
+article.whiteBox {
+    margin: 0 2rem 0 2rem;
+    background-color: #ffffff40;
+}
+    
+article.whiteBox h2,article.whiteBox p {
+    margin: 1rem;
+}
+
+/*contactme*/
+.contactme{
+    color:  #696969;
+    background-color: #ffffff40;
+    font-size: 17px;
+    font-family: 'Microsoft Yahei Light';
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contactpic{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ffffff40;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-items: center;  
+}
+
+.margin{
+    margin: 0; 
+    margin-bottom: 0;
+}
+.contactpic a{
+    align-self: center;
+    height: 45px;
+}
+
+.linkedin{
+    width: 40px;   
+}
+.facebook{
+    width: 40px;
+}
+.pinterest{
+    width: 40px;
+}
